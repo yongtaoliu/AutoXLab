@@ -1,14 +1,11 @@
 format: jb-book
 # format: jb-article
-root: Homepage
+root: Home
 parts:
-  - caption: Homepage
+  - caption: AutoXLab
     chapters:
-    - file: chapter_home/Homepage
-  - caption: Publications
-    chapters:
-    - file: chapter_publications/Publications
-  - caption: Data Processing
-    chapters:
-    - file: chapter_news/News
+    - file: PI
+    - file: Publications
+    - file: Awards  
+    - file: News
   
