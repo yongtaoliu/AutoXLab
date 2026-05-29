@@ -1,0 +1,11 @@
+format: jb-book
+# format: jb-article
+root: Home
+parts:
+  - caption: AutoXLab
+    chapters:
+    - file: PI
+    - file: Publications
+    - file: Awards  
+    - file: News
+  

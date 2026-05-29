@@ -6,6 +6,20 @@ author: Yongtao Liu
 execute:
   execute_notebooks: 'off'
   # execute_notebooks: force
+  
+exclude_patterns:
+  - .venv
+  - .venv/**
+  - _build
+  - _build/**
+sphinx:
+  config:
+    suppress_warnings:
+      - "etoc.tableofcontents"
+    thebe_config:
+      use_thebe_lite: false
+  disable_extensions:
+    - sphinx_thebe
 
 # Information about where the book exists on the web
 repository:

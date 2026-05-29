@@ -1,0 +1,19 @@
+version: 1
+project:
+  title: AutoXLab
+  authors:
+    - name: Yongtao Liu
+  github: yongtaoliu/AutoXLab
+  toc:
+    - file: Home.ipynb
+    - title: AutoXLab
+      children:
+        - file: PI.ipynb
+        - file: Publications.ipynb
+        - file: Awards.ipynb
+        - file: News.ipynb
+site:
+  options:
+    favicon: logo.png
+    folders: true
+  template: book-theme
